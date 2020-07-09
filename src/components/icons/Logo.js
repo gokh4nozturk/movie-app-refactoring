@@ -2,7 +2,7 @@ import * as React from "react";
 
 function SvgLogo(props) {
   return (
-    <svg width="1em" height="1em" viewBox="0 0 96.483 94.699" {...props}>
+    <svg width="6em" height="6em" viewBox="0 0 96.483 94.699" {...props}>
       <defs>
         <filter
           id="logo_svg__b"

@@ -1,2 +1,14 @@
+body {
+  background: #000; }
+
+main {
+  background: #fff; }
+
 .film-detail {
   background-color: yellow; }
+
+nav {
+  background: #fff; }
+
+footer {
+  background: #fff; }
