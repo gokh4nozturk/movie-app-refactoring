@@ -1,14 +1,45 @@
-body {
+.layout {
   background: #000; }
+  .layout main {
+    color: white;
+    display: flex; }
 
-main {
-  background: #fff; }
+.content {
+  width: 85%;
+  background-color: #0f1115;
+  margin-top: 0.2em;
+  padding-left: 2em;
+  padding-top: 1em;
+  border-top-left-radius: 3em; }
 
 .film-detail {
   background-color: yellow; }
 
 nav {
-  background: #fff; }
+  position: relative;
+  background-color: #19181f;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr; }
+  nav .logo {
+    grid-column: 1/2; }
+  nav .searc-box {
+    grid-column: 2/3; }
+  nav .linkler {
+    grid-column: 3/4;
+    display: flex; }
+  nav .nav-link {
+    color: gray; }
+  nav .nav-link:hover {
+    color: white; }
 
 footer {
-  background: #fff; }
+  background-color: teal; }
+
+.sidebar {
+  width: 15%;
+  padding: 1em; }

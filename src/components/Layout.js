@@ -1,23 +1,23 @@
 import React from "react";
 
 import Navigation from "./Navigation";
-
-import { Container, Row, Col } from "react-bootstrap";
 import Content from "./Content";
 import Footer from "./Footer";
+import Sidebar from "./Sidebar";
 
 function Layout() {
   return (
-    <div>
-      <Container fluid>
-        <Row>
-          <Col>
-            <Navigation />
+    <div className="container-{breakpoint} layout">
+      <div className="row">
+        <div className="col">
+          <Navigation />
+          <main className="main">
+            <Sidebar />
             <Content />
-            <Footer />
-          </Col>
-        </Row>
-      </Container>
+          </main>
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
