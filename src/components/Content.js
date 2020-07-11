@@ -1,10 +1,8 @@
 import React from "react";
 
-import AppStyle from "../assets/css/App.css";
-
 function Content() {
   return (
-    <div className={`${AppStyle} content`}>
+    <div className="content">
       Suscipit dolores eaque ducimus quidem officiis totam animi voluptatem.
       Quidem rem eum consectetur pariatur ab. Inventore adipisci et autem.
       Dolore accusantium illum et. Quidem qui est et. Architecto ex ut ut

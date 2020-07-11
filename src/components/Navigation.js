@@ -1,12 +1,11 @@
 import React from "react";
 import { Logo } from "./icons/index";
-import AppStyle from "../assets/css/App.css";
 import { Link } from "react-router-dom";
 import SearchBox from "./SearchBox";
 
 function Navigation() {
   return (
-    <nav className={`${AppStyle} navbar`}>
+    <nav className="navbar">
       <Link className="" to="/">
         <Logo className="logo" />
       </Link>
