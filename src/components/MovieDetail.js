@@ -1,9 +1,9 @@
 import React from "react";
-function FilmDetail() {
+function MovieDetail() {
   return (
     <div className="">
       <div className="film-detail">Film Detail</div>
     </div>
   );
 }
-export default FilmDetail;
+export default MovieDetail;

@@ -11,11 +11,11 @@ function Navigation() {
       </Link>
       <SearchBox className="search-box" />
       <div className="linkler">
-        <Link to="#" className="nav-link">
-          About
-        </Link>
-        <Link to="#" className="nav-link">
+        <Link to="/movies" className="nav-link">
           Movies
+        </Link>
+        <Link to="/about" className="nav-link">
+          About
         </Link>
       </div>
     </nav>

@@ -1,5 +1,10 @@
-.layout {
+html {
+  font-size: 16px;
+}
+body {
   background: #000;
+}
+.home {
   main {
     color: white;
     display: flex;
