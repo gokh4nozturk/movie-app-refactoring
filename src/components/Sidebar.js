@@ -2,7 +2,7 @@ import React from "react";
 
 function Sidebar() {
   return (
-    <div className={`sidebar`}>
+    <div className="sidebar">
       Suscipit dolores eaque ducimus quidem officiis totam animi voluptatem.
       Quidem rem eum consectetur pariatur ab. Inventore adipisci et autem.
       Dolore accusantium illum et. Quidem qui est et. Architecto ex ut ut

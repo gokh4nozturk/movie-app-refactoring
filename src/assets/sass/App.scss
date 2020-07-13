@@ -1,7 +1,9 @@
+@import "variables/variables";
 @import "layout/home";
-@import "components/Content.scss";
-@import "components/FilmDetail.scss";
-@import "components/Navigation.scss";
-@import "components/Footer.scss";
-@import "variables";
+@import "components/navigation";
+@import "layout/content";
+@import "components/footer";
 @import "components/sidebar";
+@import "pages/about";
+@import "pages/movieDetail";
+@import "pages/searchResults";

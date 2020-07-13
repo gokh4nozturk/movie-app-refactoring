@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
+import Movies from "./Movies";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
           <Navigation />
           <main className="main">
             <Sidebar />
+            <Movies />
           </main>
         </div>
       </div>

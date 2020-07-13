@@ -11,7 +11,7 @@ function Navigation() {
       </Link>
       <SearchBox className="search-box" />
       <div className="linkler">
-        <Link to="/movies" className="nav-link">
+        <Link to="/" className="nav-link">
           Movies
         </Link>
         <Link to="/about" className="nav-link">

@@ -2,8 +2,8 @@ import React, { useState, useCallback, useEffect } from "react";
 import { useParams } from "react-router";
 import Axios from "axios";
 
-import Navigation from "./Navigation";
-import Sidebar from "./Sidebar";
+import Navigation from "../Navigation";
+import Sidebar from "../Sidebar";
 
 function SearchResults() {
   const { searchKey = "" } = useParams();

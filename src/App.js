@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AppStyle from "./assets/css/App.css";
 import Footer from "./components/Footer";
 import Movies from "./components/Movies";
-import About from "./components/About";
-import SearchResults from "./components/SearchResults";
+import About from "./components/pages/About";
+import SearchResults from "./components/pages/SearchResults";
 
 function App() {
   return (
