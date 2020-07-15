@@ -1,5 +1,5 @@
 @import "variables/variables";
-@import "layout/home";
+@import "layout/content";
 @import "components/navigation";
 @import "layout/content";
 @import "components/footer";
@@ -7,3 +7,4 @@
 @import "pages/about";
 @import "pages/movieDetail";
 @import "pages/searchResults";
+@import "components/home";

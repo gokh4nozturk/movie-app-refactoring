@@ -1,22 +1,8 @@
-html {
-  font-size: 16px; }
-
-body {
-  background: #000; }
-
-.home main {
-  color: white;
-  display: flex; }
-
 .content {
   width: 85%;
-  background-color: #0f1115;
   padding: 2em;
   border-top-left-radius: 3em;
   border-bottom-left-radius: 3em; }
-
-.film-detail {
-  background-color: yellow; }
 
 nav {
   position: relative;
@@ -42,9 +28,25 @@ nav {
   nav .nav-link:hover {
     color: white; }
 
+.content {
+  width: 85%;
+  padding: 2em;
+  border-top-left-radius: 3em;
+  border-bottom-left-radius: 3em; }
+
 footer {
   background-color: teal; }
 
 .sidebar {
-  width: 15%;
-  padding: 1em; }
+  width: 15%; }
+
+html {
+  font-size: 16px; }
+
+body {
+  background: #000; }
+
+.home main {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
